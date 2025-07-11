@@ -58,7 +58,7 @@ public class ShoppingCartManualTest {
             System.out.println("PASSED: Skip Negative cart total is correct ("+total4+")");
             passedCount++;
         } else {
-            System.out.println("FAILED: Negative cart total expected -65.0 but got " + total4);
+            System.out.println("FAILED: Negative cart total expected 40 but got " + total4);
             failedCount++;
         }
 
