@@ -55,7 +55,7 @@ public class ShoppingCartManualTest {
         NegativeCart.add(new CartItem("NORMAL", "Cake", 20.0, 2));      // 40
         double total4 = ShoppingCartCalculator.calculateTotalPrice(NegativeCart);
         if (total4 == 40) {
-            System.out.println("PASSED: Negative cart total is correct ("+total4+")");
+            System.out.println("PASSED: Skip Negative cart total is correct ("+total4+")");
             passedCount++;
         } else {
             System.out.println("FAILED: Negative cart total expected -65.0 but got " + total4);
